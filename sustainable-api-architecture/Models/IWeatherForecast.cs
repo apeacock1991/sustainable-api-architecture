@@ -3,7 +3,7 @@ namespace sustainable_api_architecture.Models
 {
 	public interface IWeatherForecast
 	{
-        public DateTimeOffset Date { get; set; }
+        public DateTime Date { get; set; }
         public int TemperatureCelcius { get; set; }
 
         public double temperatureFarenheit();

@@ -7,7 +7,7 @@ namespace sustainable_api_architecture.Repositories
 	// the repo knows nothing of the infrastructure layer
 	public interface IForecastData
 	{
-		public DateTimeOffset Date { get; set; }
+		public DateTime Date { get; set; }
 		public int TemperatureCelcius { get; set; }
 	}
 }

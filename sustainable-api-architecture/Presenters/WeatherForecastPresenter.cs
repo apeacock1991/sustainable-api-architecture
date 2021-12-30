@@ -7,7 +7,7 @@ namespace sustainable_api_architecture.Presenters
 	// the domain entities into the format used for the response from the API
 	public class WeatherForecastPresenter
 	{
-		public DateTimeOffset Date { get; set; }
+		public DateTime Date { get; set; }
 		public int TemperatureInCelcius { get; set; }
 		public double TemperatureInFarenheit { get; set; }
 		public string WeatherDescription { get; set; }

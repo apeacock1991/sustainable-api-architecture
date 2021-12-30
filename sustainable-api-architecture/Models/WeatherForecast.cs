@@ -6,7 +6,7 @@ namespace sustainable_api_architecture.Models
     // The main thing to look for is that there are no dependencies.
     public class WeatherForecast : IWeatherForecast
     {
-        public DateTimeOffset Date { get; set; }
+        public DateTime Date { get; set; }
         public int TemperatureCelcius { get; set; }
 
         public double temperatureFarenheit()
@@ -14,6 +14,7 @@ namespace sustainable_api_architecture.Models
             return 32 + (TemperatureCelcius * 1.8);
         }
 
+        // You'll want to use an enum for this in the real-world
         public string Summary()
         {
             if (TemperatureCelcius < 10) {

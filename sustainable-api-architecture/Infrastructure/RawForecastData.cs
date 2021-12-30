@@ -7,7 +7,7 @@ namespace sustainable_api_architecture.Infrastructure
 	// deserialize the JSON
 	public class RawForecastData
 	{
-		public DateTimeOffset date { get; set; }
+		public DateTime date { get; set; }
 		public int temperatureC { get; set; }
 	}
 }

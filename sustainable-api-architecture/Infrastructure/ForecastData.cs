@@ -5,7 +5,7 @@ namespace sustainable_api_architecture.Infrastructure
 {
 	public class ForecastData : IForecastData
 	{
-		public DateTimeOffset Date { get; set; }
+		public DateTime Date { get; set; }
 		public int TemperatureCelcius { get; set; }
 	}
 }
