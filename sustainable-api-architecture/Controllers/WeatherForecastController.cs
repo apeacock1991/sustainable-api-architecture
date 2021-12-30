@@ -1,14 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text.Json;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Logging;
-using sustainable_api_architecture.Infrastructure;
-using sustainable_api_architecture.Models;
 using sustainable_api_architecture.Presenters;
-using sustainable_api_architecture.Repositories;
 using sustainable_api_architecture.Services;
 
 namespace sustainable_api_architecture.Controllers

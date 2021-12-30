@@ -17,11 +17,16 @@ namespace sustainable_api_architecture.Models
         // You'll want to use an enum for this in the real-world
         public string Summary()
         {
-            if (TemperatureCelcius < 10) {
+            if (TemperatureCelcius < 10)
+            {
                 return "Cold";
-            } else if (TemperatureCelcius < 20) {
+            }
+            else if (TemperatureCelcius < 20)
+            {
                 return "Warm";
-            } else {
+            }
+            else
+            {
                 return "Hot";
             }
         }
