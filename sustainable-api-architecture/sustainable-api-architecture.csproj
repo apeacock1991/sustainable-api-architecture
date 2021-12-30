@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>sustainable_api_architecture</RootNamespace>
+  </PropertyGroup>
+
+
+  <ItemGroup>
+    <None Remove="Data\" />
+    <None Remove="Models\" />
+    <None Remove="Services\" />
+    <None Remove="Repositories\" />
+    <None Remove="Infrastructure\" />
+    <None Remove="Presenters\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Data\" />
+    <Folder Include="Models\" />
+    <Folder Include="Services\" />
+    <Folder Include="Repositories\" />
+    <Folder Include="Infrastructure\" />
+    <Folder Include="Presenters\" />
+  </ItemGroup>
+</Project>
