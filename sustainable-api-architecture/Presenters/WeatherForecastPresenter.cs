@@ -1,6 +1,7 @@
 ﻿using System;
 using sustainable_api_architecture.Models;
 
+// Layer: API
 namespace sustainable_api_architecture.Presenters
 {
     // A simple presenter that lives in the API layer for translating

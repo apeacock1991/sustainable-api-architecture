@@ -2,6 +2,7 @@
 using sustainable_api_architecture.Models;
 using sustainable_api_architecture.Services;
 
+// Layer: Repository & Adapter
 namespace sustainable_api_architecture.Repositories
 {
     public class ForecastRepository : IAllForecasts

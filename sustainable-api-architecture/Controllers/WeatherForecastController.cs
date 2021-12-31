@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using sustainable_api_architecture.Presenters;
 using sustainable_api_architecture.Services;
 
+// Layer: API
 namespace sustainable_api_architecture.Controllers
 {
     [ApiController]

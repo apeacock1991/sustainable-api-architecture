@@ -2,6 +2,7 @@
 using System.Text.Json;
 using sustainable_api_architecture.Repositories;
 
+// Layer: Infrastructure
 namespace sustainable_api_architecture.Infrastructure
 {
     public class ForecastFileReader : Repositories.IDataReader

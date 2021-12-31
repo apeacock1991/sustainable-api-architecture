@@ -1,5 +1,6 @@
 ﻿using System;
 
+// Layer: Infrastructure
 namespace sustainable_api_architecture.Infrastructure
 {
 

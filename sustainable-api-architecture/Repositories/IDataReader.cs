@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
+// Layer: Repository & Adapter
 namespace sustainable_api_architecture.Repositories
 {
 

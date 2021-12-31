@@ -1,4 +1,6 @@
 ﻿using System;
+
+//Layer: Domain
 namespace sustainable_api_architecture.Models
 {
     public interface IWeatherForecast

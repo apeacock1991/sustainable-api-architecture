@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using sustainable_api_architecture.Models;
 
+// Layer: Application
 namespace sustainable_api_architecture.Services
 {
     public class RetrieveForecast : IRetrieveForecast

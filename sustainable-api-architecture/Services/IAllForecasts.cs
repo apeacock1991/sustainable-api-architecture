@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using sustainable_api_architecture.Models;
 
+// Layer: Application
 namespace sustainable_api_architecture.Services
 {
     // In a real-world application, you probably have multiple repositories so

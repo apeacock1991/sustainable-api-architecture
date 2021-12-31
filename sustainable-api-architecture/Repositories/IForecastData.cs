@@ -1,5 +1,6 @@
 ﻿using System;
 
+// Layer: Repository & Adapter
 namespace sustainable_api_architecture.Repositories
 {
 
