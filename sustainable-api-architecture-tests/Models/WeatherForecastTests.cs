@@ -39,7 +39,7 @@ namespace sustainable_api_architecture_tests.Models
                 TemperatureCelcius = 17
             };
 
-            Assert.That(forecast.Summary() == "Warm");
+            Assert.That(forecast.Summary() == "Cold");
         }
 
         [Test]
