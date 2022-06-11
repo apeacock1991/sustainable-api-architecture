@@ -19,3 +19,11 @@ If you wish to delve through the application step by step, you can do so in the 
 Please note, this is not the depdendency graph, but is the flow of control. This is due to most layers leveraging Dependency Inversion. You can see where we register our dependencies [here](https://github.com/apeacock1991/sustainable-api-architecture/blob/main/sustainable-api-architecture/Startup.cs#L26).
 
 Finally, there are a couple of examples in the tests [here](https://github.com/apeacock1991/sustainable-api-architecture/tree/main/sustainable-api-architecture-tests). By no means is the test suite exhaustive, the main reason for adding was to show how the tests work for the Repository, which you can see [here](https://github.com/apeacock1991/sustainable-api-architecture/blob/main/sustainable-api-architecture-tests/Repositories/ForecastRepositoryTests.cs). Note how we're able to easily isolate the Repository, therefore performing a unit test with ease - and it would be even easier using a framework that enables stubs!
+
+```mermaid
+flowchart TD
+    B["fa:fa-twitter for peace"]
+    B-->C[fa:fa-ban forbidden]
+    B-->D(fa:fa-spinner);
+    B-->E(A fa:fa-camera-retro perhaps?)
+```
