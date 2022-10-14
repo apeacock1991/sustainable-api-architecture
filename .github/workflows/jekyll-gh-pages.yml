@@ -27,6 +27,13 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
+        # Generate Images In Markdown Files
+      - name: Generate Diagrams In Markdown Files
+        run: |
+          for file in $(find . -name '*.md'); do
+              [ -f "$file" ] || continue
+              npx -p @mermaid-js/mermaid-cli mmdc --input $file --output $file
+          done
       - name: Setup Pages
         uses: actions/configure-pages@v2
       - name: Build with Jekyll
